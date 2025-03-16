@@ -38,7 +38,7 @@ const projects = [
         id: 3, 
         title: "流程設計 - 小琉球一日遊預定系統", 
         type: "programming", 
-        description: "一日遊訂購系統流程設計，直覺式設計讓你訂購不再卡關",
+        description: "一日遊訂購系統流程設計，直覺式設計讓你訂購不再卡關。(HTML+CSS+JS+Django)",
         link: "https://dapon.onrender.com/home/index/",
         image: dapon
     },
