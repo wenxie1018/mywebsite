@@ -21,7 +21,7 @@ const Active = () => {
   return (
     <div className="global-bg">
       {/* Header Navigation (無動畫) */}
-      <div className="flex justify-center items-center space-x-4 md:space-x-10 mx-[5%] py-[3%] md:py-[1%] text-sm md:text-2xl tracking-wide font-bold border-b-2 border-dashed border-y-cyan-950">
+      <div className="flex justify-center items-center space-x-4 md:space-x-10 mx-[5%] py-[4%] md:py-[3%] xl:py-[1%] text-sm md:text-2xl tracking-wide font-bold border-b-2 border-dashed border-y-cyan-950">
         <Link to='/about-me' className="hover:underline">
           關於我
         </Link>
@@ -39,7 +39,7 @@ const Active = () => {
         </a>
       </div>
       {/* Body */}
-      <div className="mx-[5%] md:mx-[20%] pb-6">
+      <div className="mx-[10%] xl:mx-[20%] pb-6">
         {/* 2024 區塊 */}
         <motion.div 
           initial="hidden"

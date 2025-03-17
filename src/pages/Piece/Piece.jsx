@@ -109,7 +109,7 @@ const Piece = () => {
     
   return (
     <div class="global-bg">
-        <div class='flex justify-center items-center space-x-4 md:space-x-10 mx-[5%] py-[3%] md:py-[1%] text-sm md:text-2xl tracking-wide font-bold border-b-2 border-dashed border-y-cyan-950'>
+        <div class='flex justify-center items-center space-x-4 md:space-x-10 mx-[5%] py-[4%] md:py-[3%] xl:py-[1%] text-sm md:text-2xl tracking-wide font-bold border-b-2 border-dashed border-y-cyan-950'>
             <Link to='/about-me' class='hover:underline'>
                 關於我
             </Link>
@@ -128,7 +128,7 @@ const Piece = () => {
         </div>
         <div className="min-h-screen py-10">            
             {/* 篩選按鈕 */}
-            <div className="flex justify-center space-x-4 mb-6">
+            <div className="flex justify-center space-x-3 md:space-x-4 mb-6">
                 <button 
                     onClick={() => setFilter("all")} 
                     className={`px-4 py-2 rounded ${filter === "all" ? "bg-blue-500 text-white" : "bg-gray-300"}`}>
@@ -137,17 +137,17 @@ const Piece = () => {
                 <button 
                     onClick={() => setFilter("programming")} 
                     className={`px-4 py-2 rounded ${filter === "programming" ? "bg-blue-500 text-white" : "bg-gray-300"}`}>
-                    程式作品
+                    程式類
                 </button>
                 <button 
                     onClick={() => setFilter("marketing")} 
                     className={`px-4 py-2 rounded ${filter === "marketing" ? "bg-blue-500 text-white" : "bg-gray-300"}`}>
-                    行銷作品
+                    行銷類
                 </button>
                 <button 
                     onClick={() => setFilter("others")} 
                     className={`px-4 py-2 rounded ${filter === "others" ? "bg-blue-500 text-white" : "bg-gray-300"}`}>
-                    其他作品
+                    其他
                 </button>
             </div>
 

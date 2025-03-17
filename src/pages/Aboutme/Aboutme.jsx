@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Aboutme = () => {
   return (
     <div class="global-bg">
-      <div class='flex justify-center items-center space-x-4 md:space-x-10 mx-[5%] py-[3%] md:py-[1%] text-sm md:text-2xl tracking-wide font-bold border-b-2 border-dashed border-y-cyan-950'>
+      <div class='flex justify-center items-center space-x-4 md:space-x-10 mx-[5%] py-[4%] md:py-[3%] xl:py-[1%] text-sm md:text-2xl tracking-wide font-bold border-b-2 border-dashed border-y-cyan-950'>
         <Link to='/about-me' class='underline'>
           關於我
         </Link>
