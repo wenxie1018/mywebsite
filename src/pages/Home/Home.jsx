@@ -36,7 +36,7 @@ const Home = () => {
           活動經歷 / Event Experience
         </Link>
         <a 
-          href="https://tw.trip.com/travel-guide/personal-home?locale=zh-TW&curr=TWD" 
+          href="https://tw.trip.com/travel-guide/personal-home/B6E7959CBAD017763DA28142DCB6D2C5B003BE5AEA19BEE5B828FC7A7CDFB4DB?locale=zh_tw&curr=TWD" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="border rounded-2xl border-gray-700 col-span-2 py-10 cursor-pointer flex items-center justify-center transition duration-300 transform hover:scale-105 hover:shadow-xl"

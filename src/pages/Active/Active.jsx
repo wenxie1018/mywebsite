@@ -34,7 +34,7 @@ const Active = () => {
         <Link to='/event-experience' className="underline">
           活動經歷
         </Link>
-        <a href="https://tw.trip.com/travel-guide/personal-home?locale=zh-TW&curr=TWD" target="_blank" rel="noopener noreferrer" className="hover:underline">
+        <a href="https://tw.trip.com/travel-guide/personal-home/B6E7959CBAD017763DA28142DCB6D2C5B003BE5AEA19BEE5B828FC7A7CDFB4DB?locale=zh_tw&curr=TWD" target="_blank" rel="noopener noreferrer" className="hover:underline">
           旅遊紀錄
         </a>
       </div>
